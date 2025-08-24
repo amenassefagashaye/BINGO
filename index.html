@@ -1,0 +1,5 @@
+fetch("http://localhost:5000/submit", {   // <-- replace with backend URL after deploy
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(data)
+})
